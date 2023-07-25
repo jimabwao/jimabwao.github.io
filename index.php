@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVAcare Home Health </title>
+  <link rel="stylesheet" href='style.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- whatsapp css -->
+    <link rel="stylesheet" href="whatsapp/floating-wpp.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="images/My project (1).png" alt="logo" width= "150"> EVAcare Home Health </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog & Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Careers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.php">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+   <!-- Hero Section -->
+        <section class="container-fluid"> 
+            <div id="slider" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/bbanner1.jpg" class="d-block w-100" alt="Hero 1">
+                        <div class="content text-center">
+                            <h1>Welcome to EVAcare Home Health</h1>
+                            <p>At EVAcare Home Health, we have a set of goals and objectives that govern it to operate flawlessly and offer quality services to its clients. </p>
+                            <a href="contact.php" class="btn btn-primary">CONTACT US</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hhero2.jpg" class="d-block w-100" alt="Hero 2">
+                        <div class="content text-center">
+                            <h1>Welcome to EVAcare Home Health</h1>
+                            <p>At EVAcare Home Health, we have a set of goals and objectives that govern it to operate flawlessly and offer quality services to its clients. </p>
+                            <a href="contact.php" class="btn btn-primary">CONTACT US</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hhero1.jpg" class="d-block w-100" alt="Hero 3">
+                        <div class="content text-center">
+                            <h1>Welcome to EVAcare Home Health</h1>
+                            <p>At EVAcare Home Health, we have a set of goals and objectives that govern it to operate flawlessly and offer quality services to its clients. </p>
+                            <a href="contact.php" class="btn btn-primary">CONTACT US</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+ 
+  <!-- The Care you deserve Section -->
+  <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="mb-5">The Care You Deserve</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <h5>About Us</h5>
+                            <p>EVAcare Home Health provides a dedicated team of caregivers ready to positively impact clients' lives, fostering independence, promoting well-being, and enriching the fabric of the local community.</p>
+                            <a href="About.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <h5>Our Services</h5>
+                            <p>We offer multiple client-centered services ranging from respite care to companionship services and light housekeeping</p>
+                            <a href="Services.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <h5>Contact Us</h5>
+                            <p>We value your feedback and are eager to assist you.Do not hesitate to get in touch with us</p>
+                            <a href="contact.php" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <h5>Careers</h5>
+                            <p> EVAcare is a non-medical home healthcare agency, offering various career options available to professionals willing to join our team.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+   <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/care.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="mb-4">Why Choose <span class="text-in">EVAcare Home Health </span></h1>
+                    <p class="web-text">Welcome to EVAcare Home Health, the premier non-medical home healthcare agency dedicated to serving the residents of Lowell, Massachusetts, and surrounding communities. We understand that choosing the right care provider for yourself or your loved ones is an important decision, and we are here to assure you that EVAcare is the ideal choice.</p>
+                    <p class="web-text"> One of the key factors that sets us apart is our commitment to professionalism and integrity. Let us be your partner in care, supporting you every step of the way on your journey to greater independence, well-being, and overall fulfillment. We provide:</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Respite Care</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Companionship Services</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Medication Reminders</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Meal Preparation and Nutrition</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Personal Care Assistance</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Light Housekeeping</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Transportation services</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Running errands and Shopping</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="web-text"><i class="fa fa-arrow-right text-primary me-2"></i>Home Safety Assessments</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+  <!-- Footer -->
+  
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Company</h4>
+                    <a class="btn btn-link" href="About.html">About Us</a>
+                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>   355 Pawtucket boulevard Lowell Massachusetts</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>   +1(978)8363285 or +1(978)2424108</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>   felistusngumbi@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                    <div class=" text-center py-3">
+                        &copy; 2023 EVAcare Home Health. All rights reserved.
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://getbootstrap.com/"></script>
+</body>
+</html>
